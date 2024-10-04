@@ -1,0 +1,28 @@
+PLINK v2.00a3LM AVX2 Intel (6 Mar 2021)
+Options in effect:
+  --bfile chr/EUR_arraydata.withbatch.noredact.clean.snps1.mind.0.02.het_out_14
+  --out results/prs/rep53_0.3_0.2_PC1xPC2_pheno_NOCOV_RAW/rep53_0.3_0.2_PC1xPC2_pheno_NOCOV_RAW_14
+  --score tmp-data/rep53_0.3_0.2_PC1xPC2_pheno_NOCOV_RAW.raw
+
+Hostname: n1903
+Working directory: /u/project/zaitlenlab/jwang194/zaitlen/pop_struct/gwas
+Start time: Thu Oct  3 00:07:57 2024
+
+Random number seed: 1727939277
+193121 MiB RAM detected; reserving 96560 MiB for main workspace.
+Using up to 36 threads (change this with --threads).
+340363 samples (182982 females, 157381 males; 340363 founders) loaded from
+chr/EUR_arraydata.withbatch.noredact.clean.snps1.mind.0.02.het_out_14.fam.
+8218 variants loaded from
+chr/EUR_arraydata.withbatch.noredact.clean.snps1.mind.0.02.het_out_14.bim.
+1 binary phenotype loaded (37319 cases, 303044 controls).
+Calculating allele frequencies... done.
+Warning: 245303 --score file entries were skipped due to missing variant IDs.
+(Add the 'list-variants' modifier to see which variants were actually used for
+scoring.)
+--score: 8218 variants processed.
+--score: Results written to
+results/prs/rep53_0.3_0.2_PC1xPC2_pheno_NOCOV_RAW/rep53_0.3_0.2_PC1xPC2_pheno_NOCOV_RAW_14.sscore
+.
+
+End time: Thu Oct  3 00:08:08 2024
